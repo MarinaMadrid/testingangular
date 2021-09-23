@@ -10,7 +10,6 @@
     "test": "ng test",
     "test:headless": "ng test --browsers=ChromeHeadless --watch=false --code-coverage",
     "test:e2e": "cypress open",
-    "deploy:netlify": "netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod",
     "cypress:open": "cypress open"
   },
   "private": true,
@@ -25,6 +24,7 @@
     "@angular/router": "~12.2.0",
     "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^5.1.1",
+    "firebase": "^9.0.2",
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.0",
     "ngx-cookie-service": "^12.0.3",
